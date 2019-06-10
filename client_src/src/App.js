@@ -1,9 +1,15 @@
 import React from 'react';
 import './App.css';
+import Main from './components/Main';
+import Navbar from './components/Navbar';
+
 
 const App = () => (
-    <div>
-        <h1>My App</h1>
+    <div className="App">
+        <Navbar/>
+        <div className="container">
+            <Main/>
+        </div>
     </div>
 );
 
